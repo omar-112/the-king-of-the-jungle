@@ -1,0 +1,148 @@
+* {
+    color: white;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+}
+
+body {
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+.nav-container {
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    background-color: #3674B5;
+    flex-shrink: 2;
+}
+
+.logo-box {
+    margin-right: 2em;
+    width: auto;
+}
+
+.logo {
+    height: 50px;
+    width: 150px;
+}
+
+.btn {
+    height: auto;
+    width: auto;
+    transition: .5s;
+    margin-right: auto;
+}
+
+.btn:hover {
+    background-color: #578FCA;
+    height: auto;
+    width: auto;
+    padding: 1em;
+    border-radius: 1em;
+    transition: .5s;
+}
+
+.btn:active {
+    background-color: #578FCA;
+    height: auto;
+    width: auto;
+    padding: 1em;
+    border-radius: 1em;
+    transition: .5s;
+}
+
+.contactus-box {
+    margin-right: 42em;
+}
+ 
+.login-btn {
+    --color: #6495ED;
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 17px;
+    z-index: 1;
+    color: var(--color);
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+.login-btn::before {
+    position: absolute;
+    content: "";
+    background: var(--color);
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+.login-btn:hover {
+    color: white;
+  }
+  
+.login-btn:before {
+    top: 100%;
+    left: 100%;
+    transition: 0.3s all;
+  }
+  
+.login-btn:hover::before {
+    top: -30px;
+    left: -30px;
+  }
+  
+
+.signup-btn {
+    --color: #0077ff;
+    background-color: #6495ED;
+    font-family: inherit;
+    display: inline-block;
+    width: 6em;
+    height: 2.6em;
+    line-height: 2.5em;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 20px;
+    font-size: 17px;
+    z-index: 1;
+    color: white;
+    border: 2px solid var(--color);
+    border-radius: 6px;
+    position: relative;
+  }
+  
+.signup-btn::before {
+    position: absolute;
+    content: "";
+    background: var();
+    width: 150px;
+    height: 200px;
+    z-index: -1;
+    border-radius: 50%;
+  }
+  
+.signup-btn:hover {
+    color: #0077ff;
+  }
+  
+.signup-btn:before {
+    top: 100%;
+    left: 100%;
+    transition: 0.3s all;
+  }
+  
+.signup-btn:hover::before {
+    top: -30px;
+    left: -30px;
+    background-color: #F0F0F0;
+  }

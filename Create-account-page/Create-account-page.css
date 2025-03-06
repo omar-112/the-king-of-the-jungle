@@ -1,0 +1,128 @@
+body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,#3674B5, #578FCA,#A1E3F9);
+}
+
+.container {
+    border: solid black 1px;
+    height: 34em;
+    width: 22em;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    border-radius: 1em;
+    padding: 2em;
+    box-shadow: 0.3em 0.3em;
+}
+
+.header {
+    text-align: center;
+    color: #3674B5;
+}
+
+.name {
+    margin-bottom: 1.5em;
+}
+
+#fname {
+    margin-right: 1em;
+}
+
+.name * {
+    background-color: #D3D3D3;
+    border-radius: 0.3em;
+    height: 3em;
+    width: 11.7em;
+    border: none;
+}
+
+.email {
+    margin-bottom: 1.5em
+}
+
+#email {
+    width: 25em;
+    height: 3em;
+    border-radius: 0.3em;
+    background-color: #D3D3D3;
+    border: none;
+}
+
+.pass {
+    margin-bottom: 1.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+.pass * {
+    background-color: #D3D3D3;
+    border-radius: 0.3em;
+    height: 3em;
+    width: 25em;
+    border: none;
+}
+
+#pass1 {
+    margin-bottom: 1.5em;   
+}
+
+.tel {
+    margin-bottom: 1.5em;
+}
+
+.tel * {
+    background-color: #D3D3D3;
+    border-radius: 0.3em;
+    height: 3em;
+    width: 25em;
+    border: none;
+}
+
+.gender {
+    margin-bottom: 1.5em;
+}
+
+.gender * {
+    background-color: #D3D3D3;
+    border-radius: 0.3em;
+    height: 3em;
+    width: 25em;
+    border: none;
+}
+
+.button {
+    height: 3em;
+    width: 21.2em;
+    font-size: 1em;
+    --bg: #3674B5;
+    --hover-bg: #A1E3F9;
+    --hover-text: #000;
+    color: #fff;
+    cursor: pointer;
+    border: 1px solid var(--bg);
+    border-radius: 4px;
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+    border-radius: 1em;
+    margin-bottom: 1em;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem, -0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+    box-shadow: none;
+  }
+  
+  .login {
+    text-align: center;
+  }

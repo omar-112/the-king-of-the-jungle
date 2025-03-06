@@ -1,0 +1,9 @@
+Fonts used in this design:
+
+Font: Quicksand
+Author: Andrew Paglinawan
+Url: https://fonts.google.com/specimen/Quicksand
+
+Font: Open Sans
+Author: Steve Matteson
+Url: https://fonts.google.com/specimen/Open+Sans

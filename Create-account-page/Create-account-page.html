@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create account</title>
+    <link rel="stylesheet" href="./Create-account-page.css" />
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Create Account</h1>
+        <div class="name">
+            <input type="text" placeholder="First name" id="fname" required></input>
+            <input type="text" placeholder="last name" id="lname" required>
+        </div>
+        <div class="email">
+            <input type="email" placeholder="Email Address" id="email" required>
+        </div>
+        <div class="pass">
+            <input type="password" placeholder="Password" id="pass1" required>
+            <input type="password" placeholder="Confirm Password" required>
+        </div>
+        <div class="tel">
+            <input type="tel" placeholder="Telephone" required maxlength="11">
+        </div>
+        <div class="gender">
+            <select>
+                <option>Male</option>
+                <option>Female</option>
+                <option>Other</option>
+            </select>
+        </div>
+        <div class="button-cont">
+            <button class="button">signup</button>
+        </div>
+        <div class="login">
+            or <a href="">login</a>
+        </div>
+    </div>
+</body>
+</html>
